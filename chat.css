@@ -1,0 +1,56 @@
+body{
+  font-family: 'DM Sans', sans-serif;
+  background:#0f0f13;
+  color:#fff;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.shell{
+  width:420px;
+  height:720px;
+  background:#18181f;
+  border-radius:20px;
+  display:flex;
+  flex-direction:column;
+  overflow:hidden;
+}
+
+.messages{
+  flex:1;
+  padding:15px;
+  overflow-y:auto;
+}
+
+.bubble{
+  padding:10px 14px;
+  border-radius:15px;
+  margin:5px 0;
+}
+
+.user .bubble{background:#6c63ff;color:white;}
+.bot .bubble{background:#222230;}
+
+.input-area{
+  display:flex;
+  padding:10px;
+}
+
+input{
+  flex:1;
+  padding:12px;
+  border-radius:20px;
+  border:none;
+  outline:none;
+}
+
+button{
+  margin-left:10px;
+  padding:12px 18px;
+  border:none;
+  border-radius:50%;
+  background:#6c63ff;
+  color:white;
+}
