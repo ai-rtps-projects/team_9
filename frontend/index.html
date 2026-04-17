@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopping Assistant Chatbot</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="chat-header">
+        <h1>🛍️ Shopping Assistant</h1>
+        <p>Your personal shopping guide</p>
+    </div>
+
+    <div class="chat-window" id="chatWindow"></div>
+
+    <div class="input-container">
+        <form id="chatForm" onsubmit="sendMessage(event)">
+            <input type="text" id="userInput" placeholder="Type your message...">
+            <button type="submit">➤</button>
+        </form>
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

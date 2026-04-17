@@ -1,0 +1,14 @@
+{
+  "products": [
+    {
+      "product_name": "Wireless Headphones",
+      "price": 49.99,
+      "rating": 4.5
+    },
+    {
+      "product_name": "USB Charger",
+      "price": 19.99,
+      "rating": 4.2
+    }
+  ]
+}
